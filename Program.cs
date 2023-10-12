@@ -15,9 +15,10 @@
 
 // Задание переменной
 // тип_данных имя_переменной = значение;
-
-int number = 5; // number = 5
+// 
+Console.Write("Введите число ");
+int number = Convert.ToInt32(Console.ReadLine()); // number = 5
 
 int result = number * number;
 
-Console.WriteLine(result);
+Console.WriteLine("Квадрат от числа " + number + " = " + result);
